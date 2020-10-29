@@ -29,6 +29,9 @@ const Navbar: FC<Props> = ({ className }) => {
             <Link href="/search?q=accessories">
               <a className={s.link}>Accessories</a>
             </Link>
+            <Link href="/blog">
+              <a className={s.link}>Blog</a>
+            </Link>
           </nav>
         </div>
 
